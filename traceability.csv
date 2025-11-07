@@ -7,9 +7,3 @@ REQ 5,Ages Brie increases by 1 each day,TC4 TC5,Covered,
 REQ 6,Backstage +1/+2/+3 then 0 after concert,TC6 TC7 TC8 TC9 TC12 TC13,Covered,
 REQ 7,Sulfuras fixed Quality 80 no change,TC10,Covered,
 REQ 8,Conjured degrade twice as fast,TC15 TC16,Covered,
-
-
-
-
-
-R
