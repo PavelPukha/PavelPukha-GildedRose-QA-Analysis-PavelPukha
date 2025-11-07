@@ -1,0 +1,8 @@
+BugID,Title,Component,Steps,Expected,Actual,AffectedREQ,Severity,Status
+BUG-01,Aged Brie decreases in quality and SellIn not reduced,AgedItemHandler,"1. Create item 'Aged Brie' with SellIn 5, Quality 49
+2. Run updateQuality once","Quality should increase to 50 and SellIn decrease by 1","Quality decreases to 47 and SellIn stays the same","REQ5 REQ3 REQ2",High,New
+BUG-02,Backstage wrong increase steps for SellIn 6..10 and >10,TicketItemHandler,"1. Create item 'Backstage passes to a TAFKAL80ETC concert' with SellIn 10, Quality 20
+2. Run updateQuality once
+3. Repeat with SellIn 15, Quality 20","For SellIn 10 Quality should increase by 2 (to 22)
+For SellIn 15 Quality should increase by 1 (to 21)","For SellIn 10 Quality increases only by 1
+For SellIn 15 Quality stays the same","REQ6",High,New
