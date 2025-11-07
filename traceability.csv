@@ -1,10 +1,15 @@
 ReqID,Requirement,TestIds,Coverage,Notes
-REQ 1,Quality never negtive,TBD,Planned,
-REQ 2,Quality never above 50 except legendary,TBD,Planned,
-REQ 3,SellIn decreases by 1 per day,TBD,Planned,
-REQ 4,Normal items degrade 1 then 2 after sell date,TBD,Planned,
-REQ 5,Ages Brie increases by 1 each day,TBD,Planned,
-REQ 6,Backstage +1/+2/+3 then 0 after concert,TBD,Planned,
-REQ 7,Sulfuras fixed Quality 80 no change,TBD,Planned,
-REQ 8,Conjured degrade twice as fast,TBD,Planned,
-REQ 9,Unrecognized items act normal,TBD,Planned
+REQ 1,Quality never negtive,TC3 TC13 TC14,Covered,
+REQ 2,Quality never above 50 except legendary,TC4 TC5 TC12,Covered,
+REQ 3,SellIn decreases by 1 per day,TC1 TC2 TC11 TC15 TC16,Covered,
+REQ 4,Normal items degrade 1 then 2 after sell date,TC1 TC2 TC14,Covered,
+REQ 5,Ages Brie increases by 1 each day,TC4 TC5,Covered,
+REQ 6,Backstage +1/+2/+3 then 0 after concert,TC6 TC7 TC8 TC9 TC12 TC13,Covered,
+REQ 7,Sulfuras fixed Quality 80 no change,TC10,Covered,
+REQ 8,Conjured degrade twice as fast,TC15 TC16,Covered,
+
+
+
+
+
+R
